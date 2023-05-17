@@ -7,6 +7,7 @@
 @import url('./footer.css');
 @import url('./your-order.css');
 @import url('./thank-you.css');
+@import url('./mobile-menu.css');
 
 :root {
   --black-color: #000000;
