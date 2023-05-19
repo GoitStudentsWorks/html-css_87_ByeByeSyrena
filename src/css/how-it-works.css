@@ -1,7 +1,4 @@
 .how-it-heading {
-  font-family: 'DM Sans';
-  font-style: normal;
-
   font-weight: 500;
   font-size: 28px;
   line-height: 1.1;
@@ -19,6 +16,12 @@
 
   color: var(--white-color);
   text-shadow: var(--shadow);
+}
+
+@media screen and (min-width: 768px) {
+  .how-it-heading {
+    font-size: 40px;
+  }
 }
 
 .how-it-discription {
