@@ -2,7 +2,7 @@
 .menu-toggle {
   min-height: 24px;
   min-width: 24px;
-  display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   margin: 0;
@@ -22,20 +22,25 @@
   display: none;
 }
 
+.menu-toggle.js-open-menu .icon-cross {
+  display: block;
+}
+
+.menu-toggle.js-open-menu .icon-menu {
+  display: none;
+}
+
+
 @media (min-width: 768px) {
   .menu-toggle {
     display: none;
   }
 }
 
-.menu-toggle:hover,
-.menu-toggle:focus {
-  background-color: rgba(0, 0, 0, 0.1);
-}
 
 .menu-container {
   position: fixed;
-  top: 25px;
+  top: 50px;
   left: 0;
   width: 100vw;
   height: 100vh;
@@ -54,13 +59,6 @@
   transform: translateX(0);
 }
 
-.menu-container .menu-toggle {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  color: var(--navy-blue);
-  background: var(--cornflower);
-}
 
 .mobile-menu {
   padding: 0;
@@ -81,7 +79,7 @@
 
   font-size: 14px;
   line-height: 1.28;
-
+  color: white;
   letter-spacing: 0.04em;
   text-transform: capitalize;
 }
@@ -98,4 +96,5 @@
   cursor: pointer;
   border: none;
   outline: none;
+  fill:white;
 }
