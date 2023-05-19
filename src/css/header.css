@@ -1,0 +1,47 @@
+.mob-icon{
+    fill: var(--white);
+}
+
+@media screen and (max-width: 767px) {
+    .header-list {
+      display: none;
+    }
+  }
+ 
+
+  @media screen and (max-width: 767px) {
+    .header-mobile-but {
+      display: none;
+    }
+  }
+
+  .heder-nav-menu{
+    display: flex;
+    align-items: center;
+
+  }
+
+  .header-logo-icon{
+    fill: var(--red-color);
+    margin-right: 8px;
+  }
+
+  .header-logo-text {
+    font-family:sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.28;
+    text-transform: uppercase;
+    color: var(--red-color);}
+  
+
+    .header-nav{
+        margin-right: 8px;
+        margin-right: auto;
+    }
+
+    .header-logo{
+        display: flex;
+        align-items: center;
+    }
+  
