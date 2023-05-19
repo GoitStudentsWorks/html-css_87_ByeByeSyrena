@@ -4,7 +4,7 @@
     font-style: normal;
     
     font-weight: 500;
-    font-size: 40px;
+    font-size: 28px;
     line-height: 1.1; 
 
     max-width: 335px;
@@ -56,7 +56,6 @@
 
     .container-item-list {
         display: flex;
-        /* height: 72px; */
     }
 
     .how-it-heading-cont {
@@ -138,6 +137,10 @@
         .heading-item {
             max-width: 120px;
         }
+
+        .image-splash{
+            max-height: 380px;
+        }
     }
 
     @media screen and (max-width: 767px) {
@@ -159,6 +162,8 @@
             margin-bottom: 44px;
             flex-direction: column;
         }
+
+        
     }
 
     
@@ -171,6 +176,7 @@
 
         .how-it-heading {
             max-width: 624px;
+            font-size: 40px;
         }
 
         .how-it-discription{
