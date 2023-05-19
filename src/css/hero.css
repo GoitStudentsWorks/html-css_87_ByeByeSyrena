@@ -58,4 +58,33 @@
   }
 }
 
+.hero-girl-border {
+  padding: 11px;
+  max-width: 324px;
+  max-height: 498px;
+  border-radius: 500px;
+  border: 1px solid;
+  border-color: var(--no-color);
+  background: linear-gradient(to bottom, #ae1332, #ae1332, #ae1332) padding-box,
+    linear-gradient(to bottom, #ae1332 44.18%, #ffffff 100%) border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-girl-border {
+    width: 719px;
+    height: 1070px;
+  }
+}
+
+.hero-girl {
+  border-radius: 500px;
+  max-width: 302px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-girl {
+    max-width: 452px;
+  }
+}
+
 /* Yulia Part */
