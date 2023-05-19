@@ -71,8 +71,8 @@
 
 @media screen and (min-width: 768px) {
   .hero-girl-border {
-    width: 719px;
-    height: 1070px;
+    max-width: 719px;
+    max-height: 1070px;
   }
 }
 
