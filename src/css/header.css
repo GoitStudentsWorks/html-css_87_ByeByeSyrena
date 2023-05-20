@@ -1,0 +1,116 @@
+.mob-icon {
+  fill: var(--white);
+}
+
+@media screen and (max-width: 767px) {
+  .header-list {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-mobile-but {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header-mobile-but {
+    min-width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    fill: var(--white-color);
+    stroke: var(--red-color);
+  }
+}
+.heder-nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  .heder-nav-menu {
+    display: block;
+  }
+}
+
+.header-logo-icon {
+  fill: var(--red-color);
+  margin-right: 8px;
+}
+
+.header-logo-text {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: var(--red-color);
+}
+
+.header-position {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-position {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header-list {
+    display: flex;
+    gap: 16px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .header-list {
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header-link {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: 0.04em;
+    display: inline-block;
+    color: var(--red-color);
+    padding: 16px 0 16px;
+  }
+}
+
+.header-logo {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    align-items: center;
+    padding: 16px 0 16px;
+  }
+}

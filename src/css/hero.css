@@ -1,0 +1,90 @@
+.hero {
+  padding: 56px 0 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 64px 0 137px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero {
+    padding: 64px 0 150px 0;
+  }
+}
+
+/* Ira Part */
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-shadow: var(--shadow);
+  text-align: center;
+  color: var(--white-color);
+}
+@media screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 50px;
+    line-height: 54px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-title {
+    font-size: 64px;
+    line-height: 64px;
+  }
+}
+
+.hero-title-box {
+  display: block;
+  margin: 0 auto;
+  max-width: 335px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title-box {
+    max-width: 704px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-title-box {
+    max-width: 898px;
+  }
+}
+
+.hero-girl-border {
+  padding: 11px;
+  max-width: 324px;
+  max-height: 498px;
+  border-radius: 500px;
+  border: 1px solid;
+  border-color: var(--no-color);
+  background: linear-gradient(to bottom, #ae1332, #ae1332, #ae1332) padding-box,
+    linear-gradient(to bottom, #ae1332 44.18%, #ffffff 100%) border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-girl-border {
+    max-width: 719px;
+    max-height: 1070px;
+  }
+}
+
+.hero-girl {
+  border-radius: 500px;
+  max-width: 302px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-girl {
+    max-width: 452px;
+  }
+}
+
+/* Yulia Part */
