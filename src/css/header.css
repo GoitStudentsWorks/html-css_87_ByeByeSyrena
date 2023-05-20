@@ -48,13 +48,14 @@
 }
 
 .header-logo-text {
-  font-family: sans-serif;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.28;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
   text-transform: uppercase;
   color: var(--red-color);
 }
+
 
 .header-position {
   display: none;
@@ -100,7 +101,10 @@
 }
 
 .header-logo {
-  display: block;
+
+  padding: 16px 0 16px;
+  display: flex;
+  align-items: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -109,8 +113,7 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    display: block;
-    align-items: center;
-    padding: 16px 0 16px;
+  
+  
   }
 }
