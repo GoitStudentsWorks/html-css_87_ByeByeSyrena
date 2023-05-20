@@ -7,7 +7,7 @@ const mobileMenuRef = document.querySelector("[data-menu]");
       menuBtnRef.getAttribute("area expanded") === 'true' || false;
     
     menuBtnRef.classList.toggle("is-open");
-    menuBtnRef.setAttribute("artia-expanded", !expanded);
+    menuBtnRef.setAttribute("aria-expanded", !expanded);
 
     menuBtnRef.classList.toggle("is-open");
   });
