@@ -14,11 +14,6 @@
   fill: var(--red-color);
 }
 
-.menu-toggle .modal-icon {
-  display: block;
-  stroke: var(--red-color);
-}
-
 .menu-toggle .icon-cross {
   display: none;
 }
