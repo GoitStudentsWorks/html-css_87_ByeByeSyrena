@@ -5,7 +5,6 @@
 @media screen and (min-width: 768px) {
   .hero {
     padding: 64px 0 137px 0;
-    min-height: 2000px;
   }
 }
 
@@ -16,6 +15,9 @@
 }
 
 /* Ira Part */
+.hero-width {
+  min-height: 1078px;
+}
 
 .hero-title {
   font-weight: 500;
@@ -39,25 +41,29 @@
     line-height: 64px;
   }
 }
+
 .hero-title-box {
   display: block;
-  position: absolute;
+  /* position: absolute;
   z-index: 3;
   left: 50%;
   top: 5%;
-  transform: translate(-50%, 10%) scale(1);
+  transform: translate(-50%, 10%) scale(1); */
   min-width: 335px;
 }
+
 @media screen and (min-width: 768px) {
   .hero-title-box {
     min-width: 704px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .hero-title-box {
     min-width: 898px;
   }
 }
+/* 
 .hero-girl {
   border-radius: 500px;
 }
@@ -129,7 +135,7 @@
     right: 18%;
     top: 3%;
   }
-}
+} */
 
 /* Yulia Part */
 /* BTN SHOP NOW */
