@@ -19,8 +19,8 @@
   --yellow-color: #f5ce13;
   --socials-hover-bg-color: rgba(174, 19, 50, 0.1);
   --shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  --first-width: 30px;
-  --second-width: 14 px;
+  --items: 1;
+  --indent: 14px;
 }
 
 body {
