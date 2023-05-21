@@ -235,7 +235,7 @@
   color: var(--white-color);
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
-.hero-pic {
+.hero-first-pic {
   margin-left: 24px;
 }
 
@@ -275,13 +275,15 @@
   height: 387px;
 }
 
+.hero-second-pic {
+  margin-left: 44px;
+}
 .hero-scroll-container {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
-.hero-scroll-btn {
-  font-weight: 500;
-  font-size: 12px;
-  gap: 8px;
+
+.hero-scrol-list {
+  display: flex;
 }
