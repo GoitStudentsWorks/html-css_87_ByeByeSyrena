@@ -97,3 +97,140 @@
 }
 
 /* Yulia Part */
+/* BTN SHOP NOW */
+.hero-btn-container {
+  position: relative;
+  margin-bottom: 44px;
+}
+.hero-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 0;
+  border-radius: 50%;
+  border: transparent;
+  width: 80px;
+  height: 80px;
+}
+
+.hero-btn-desc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: var(--red-color);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  transform: rotate(-14deg);
+}
+
+.hero-btn-desc:hover,
+.hero-btn-desc:focus {
+  color: var(--green-color);
+}
+
+/* first side  */
+.hero-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  display: flex;
+  align-items: center;
+
+  color: var(--white-color);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+.hero-first-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 44px;
+  gap: 44px;
+}
+
+.hero-first-wrapper {
+  background-color: var(--green-color);
+  border-radius: 500px;
+  margin-right: 63px;
+  margin-left: 63px;
+  width: 249px;
+  height: 387px;
+}
+
+.hero-block-title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.04em;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 28px;
+  padding-right: 112px;
+  padding-left: 112px;
+  margin-bottom: 61px;
+  color: var(--white-color);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+.hero-pic {
+  margin-left: 24px;
+}
+
+.hero-desc {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.04em;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-right: 47px;
+  padding-bottom: 40px;
+  padding-left: 47px;
+
+  text-transform: uppercase;
+  color: var(--white-color);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+/* second side */
+.hero-second-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 44px;
+  gap: 44px;
+}
+
+.hero-second-wrapper {
+  background-color: var(--yellow-color);
+  border-radius: 500px;
+  margin-right: 63px;
+  margin-left: 63px;
+  width: 249px;
+  height: 387px;
+}
+
+.hero-scroll-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.hero-scroll-btn {
+  font-weight: 500;
+  font-size: 12px;
+  gap: 8px;
+}
