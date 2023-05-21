@@ -44,11 +44,11 @@
 
 .hero-title-box {
   display: block;
-  /* position: absolute;
+  position: absolute;
   z-index: 3;
   left: 50%;
   top: 5%;
-  transform: translate(-50%, 10%) scale(1); */
+  transform: translate(-50%, 10%) scale(1);
   min-width: 335px;
 }
 
@@ -63,7 +63,7 @@
     min-width: 898px;
   }
 }
-/* 
+
 .hero-girl {
   border-radius: 500px;
 }
@@ -135,7 +135,7 @@
     right: 18%;
     top: 3%;
   }
-} */
+}
 
 /* Yulia Part */
 /* BTN SHOP NOW */
