@@ -47,7 +47,7 @@
   position: absolute;
   z-index: 3;
   left: 50%;
-  top: 5%;
+  top: 15%;
   transform: translate(-50%, 10%) scale(1);
   min-width: 335px;
 }
@@ -55,12 +55,14 @@
 @media screen and (min-width: 768px) {
   .hero-title-box {
     min-width: 704px;
+    top: 20%;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .hero-title-box {
     min-width: 898px;
+    top: 15%;
   }
 }
 
@@ -76,7 +78,7 @@
   position: absolute;
   z-index: 2;
   left: 50%;
-  top: 13%;
+  top: 23%;
   transform: translate(-50%, 0%) scale(1);
   padding: 11px;
   min-width: 300px;
@@ -92,14 +94,21 @@
   .hero-girl-border {
     max-width: 486px;
     max-height: 736px;
-    top: 14%;
+    top: 19%;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .hero-girl-border {
+    top: 23%;
+  }
+}
+
 .hero-banana {
   position: absolute;
   z-index: 2;
   left: 2%;
-  top: 15%;
+  top: 24%;
 }
 @media screen and (max-width: 374px) {
   .hero-banana {
@@ -109,31 +118,32 @@
 @media screen and (min-width: 768px) {
   .hero-banana {
     left: 4%;
-    top: 22%;
+    top: 36%;
   }
 }
 @media screen and (min-width: 1280px) {
   .hero-banana {
     scale: 1.5;
     left: 18%;
-    top: 27%;
+    top: 35%;
   }
 }
 .hero-berry {
   position: absolute;
   z-index: 1;
   right: 5%;
-  top: 5%;
+  top: 16%;
 }
 @media screen and (min-width: 768px) {
   .hero-berry {
     right: 4%;
+    top: 19%;
   }
 }
 @media screen and (min-width: 1280px) {
   .hero-berry {
-    right: 18%;
-    top: 3%;
+    right: 17%;
+    top: 14%;
   }
 }
 
