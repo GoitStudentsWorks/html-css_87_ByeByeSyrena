@@ -43,6 +43,7 @@
 .bottom-wrapper {
   max-width: 335px;
   margin: 0 auto;
+  margin-bottom: 44px;
 }
 
 .fruits-list {
@@ -203,5 +204,58 @@
 @media screen and (min-width: 1280px) {
   .kiwi {
     display: block;
+  }
+}
+
+.fruits-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-fruits {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #9dc262;
+  border: none;
+  cursor: pointer;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  padding-left: 7px;
+  padding-right: 8px;
+  gap: 4px;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  transform: rotate(-14deg);
+}
+.fruits-icon {
+  fill: #ffffff;
+}
+.btn-fruits:focus,
+.btn-fruits:hover {
+  background-color: #ffffff;
+  color: #9dc262;
+  fill: #9dc262;
+  stroke: #9dc262;
+}
+@media screen and (min-width: 768px) {
+  .btn-fruits {
+    width: 114px;
+    height: 114px;
+    padding-left: 18px;
+    padding-right: 17px;
+
+    font-size: 18px;
+    line-height: 1.33;
   }
 }
