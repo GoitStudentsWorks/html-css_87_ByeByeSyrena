@@ -134,10 +134,6 @@
   border: none;
   outline: none;
   fill: var(--red-color);
-}
-
-.burger .modal-icon {
-  display: block;
   stroke: var(--red-color);
 }
 
@@ -180,8 +176,13 @@
   visibility: visible;
   opacity: 1;
 }
-.mobile-menu.is-open .burger {
+
+.js-open-menu {
+}
+
+.mobile-menu.is-open .js-open-menu {
   display: none;
+  fill: var(--no-color);
 }
 
 .mobile-menu-list {
