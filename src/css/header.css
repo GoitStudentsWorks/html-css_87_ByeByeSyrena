@@ -119,17 +119,6 @@
   .menu-header .header-logo {
     visibility: hidden;
   }
-
-  .close-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    border: none;
-    background-color: transparent;
-    font: inherit;
-    stroke: var(--red-color);
-  }
 }
 /* MOB */ /* Mob */
 .mobile-menu-toggle {
