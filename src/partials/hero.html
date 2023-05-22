@@ -1,91 +1,183 @@
 <!-- hero section -->
 <section class="hero">
-  <div class="container">
+  <div class="container hero-width">
+    <div class="hero-girl-border">
+      <picture>
+        <source
+          srcset="
+            img/hero/top_hero/1girlnew.png   1x,
+            img/hero/top_hero/1girl2xnew.png 2x
+          "
+          media="(max-width: 767px)"
+          type="image/png"
+        />
+        <source
+          srcset="
+            img/hero/top_hero/girlnew.jpg   1x,
+            img/hero/top_hero/girl2xnew.jpg 2x
+          "
+          media="(min-width: 768px)"
+          type="image/jpeg"
+        />
+        <img src="img/hero/top_hero/girlnew.jpg" alt="girl" class="hero-girl" />
+      </picture>
+    </div>
     <div class="hero-title-box">
       <h1 class="hero-title">
         fresh harvest box<br />
         is your one-stop place for a delicious fruit basket
       </h1>
     </div>
-    <div class="hero-girl-border">
-      <!-- чи треба ставити дескриптор 1х та 2х? КОСИЦЯ 2.15хв -->
-      <img
-        class="hero-girl"
+    <picture>
+      <source
         srcset="
-    ../img/hero/top_hero/top_hero.jpg
-    ../img/hero/top_hero/top_hero@2x.jpg
-    ../img/hero/top_hero_mobile/top_hero_mobile.jpg
-    ../img/hero/top_hero_mobile/top_hero_mobile@2x.jpg
-    "
-        src="../img/hero/top_hero/top_hero.jpg"
-        alt="girl with the lemon"
+          img/hero/banana_berry/imagebanana.png 1x,
+          img/hero/banana_berry/banana@2x.png   2x
+        "
+        media="(max-width: 767px)"
+        type="image/png"
       />
+      <source
+        srcset="
+          img/hero/banana_berry/banana_tab.png    1x,
+          img/hero/banana_berry/banana_tab@2x.png 2x
+        "
+        media="(min-width: 768px)"
+        type="image/png"
+      />
+      <source
+        srcset="
+          img/hero/banana_berry/banana_desk.png    1x,
+          img/hero/banana_berry/banana_desk@2x.png 2x
+        "
+        media="(min-width: 1280px)"
+        type="image/png"
+      />
+      <img
+        src="img/banana_berry/banana_desk.png"
+        alt="banana"
+        class="hero-banana"
+      />
+    </picture>
+    <picture>
+      <source
+        srcset="
+          img/hero/banana_berry/imagestrawberry.png    1x,
+          img/hero/banana_berry/imagestrawberry@2x.png 2x
+        "
+        media="(max-width: 767px)"
+        type="image/png"
+      />
+      <source
+        srcset="
+          img/hero/banana_berry/strawberry_tab.png    1x,
+          img/hero/banana_berry/strawberry_tab@2x.png 2x
+        "
+        media="(min-width: 768px)"
+        type="image/png"
+      />
+      <source
+        srcset="
+          img/hero/banana_berry/strawberry_desk.png    1x,
+          img/hero/banana_berry/strawberry_desk@2x.png 2x
+        "
+        media="(min-width: 1280px)"
+        type="image/png"
+      />
+      <img
+        class="hero-berry"
+        src="img/hero/banana_berry/strawberry_desk.png"
+        alt="banana"
+      />
+    </picture>
+    <!-- BTN SHOP NOW -->
+    <div class="hero-btn-container">
+      <button class="hero-btn" type="button">
+        <h2 class="hero-btn-desc"><a href="#fruits">shop now</a></h2>
+      </button>
     </div>
   </div>
-  <!-- 111111111111111 -->
-  <div class="hero-btn-container">
-    <button class="hero-btn" type="button">
-      <h2 class="hero-btn-desc"><a href="#fruits">shop now</a></h2>
-    </button>
-    <!-- ПІТИ ПОДИВИТИСЬ, ЯК НАСТЯ НАЗВАЛА СВОЮ СЕКЦІЮ, ТОМУ ЩО МАЄ СПРАЦЮВАТИ ЯКІРЬ ДО СЕКЦІЇ ORGANIC FRUITS -->
-  </div>
 
-  <!-- 222222222222222 -->
-  <div class="hero-description-container">
-    <p class="hero-description">
-      Our expertly curated fruit baskets are made with the freshest, highest
-      quality fruits available. Whether you are looking for a healthy snack or a
-      gift for a loved one, Fresh Harvest Box has got you covered.
-    </p>
-  </div>
+  <!-- Yulia Part  -->
 
-  <!-- 3333333333333333 -->
-  <div class="hero-first-block-container">
-    <p class="hero-block-title">Fruit</p>
-    <img
-      class="hero-pic"
-      srcset="
-        ../img/hero/basket_strawberris/basket_strawberris@1x.png 200w,
-        ../img/hero/basket_strawberris/basket_strawberris@2x.png 200w
-      "
-      src="../img/hero/basket_strawberris/basket_strawberris@1x.png"
-      alt="basket with strawberries"
-    />
-    <p class="hero-desc">
-      Refreshing and juicy, watermelon is the perfect summer treat and a great
-      source of hydration
-    </p>
-  </div>
-  <!-- 44444444444444444444444 -->
-  <div class="hero-scroll-btn-container">
-    <button type="button"><h3 class="hero-scroll-btn">&#35;organic</h3></button>
-    <button type="button">
-      <h3 class="hero-scroll-btn">&#35;products</h3>
-    </button>
-    <button type="button"><h3 class="hero-scroll-btn">&#35;basket</h3></button>
-    <button type="button"><h3 class="hero-scroll-btn">&#35;fruits</h3></button>
-  </div>
+  <div class="hero-desc-section">
+    <!-- first side -->
+    <div class="hero-first-container">
+      <p class="hero-description">
+        Our expertly curated fruit baskets are made with the freshest, highest
+        quality fruits available. Whether you are looking for a healthy snack or
+        a gift for a loved one, Fresh Harvest Box has got you covered.
+      </p>
+      <div class="hero-first-wrapper">
+        <p class="hero-first-title">Fruit</p>
+        <img
+          class="hero-first-pic"
+          srcset="
+            img/hero/watermelon/watermelon@1x.png 1x,
+            img/hero/watermelon/watermelon@2x.png 2x
+          "
+          src="img/hero/watermelon/watermelon@1x.png"
+          width="200"
+          height="172"
+          alt="watermelon"
+        />
+        <p class="hero-desc">
+          Refreshing and juicy, watermelon is the perfect summer treat and a
+          great source of hydration
+        </p>
+      </div>
+    </div>
+    <!-- second side-->
 
-  <!-- 55555555555555555555555 -->
-  <div class="hero-second-block-container">
-    <p class="hero-block-title">Fruit</p>
-    <img
-      class="hero-pic"
-      srcset="
-        ../img/hero/basket_strawberris/basket_strawberris@1x.png 200w,
-        ../img/hero/basket_strawberris/basket_strawberris@2x.png 200w
-      "
-      src="../img/hero/basket_strawberris/basket_strawberris@1x.png"
-      alt="basket with strawberries"
-    />
-    <p class="hero-desc">
-      Sweet and juicy, strawberries are packed with vitamin C and antioxidants,
-      making them a delicious and healthy snack
-    </p>
+    <div class="hero-second-container">
+      <div class="hero-scroll-container">
+        <div>
+          <ul class="hero-scrol-list list">
+            <li>
+              <button class="hero-scroll-btn-one" type="button">
+                <h3 class="hero-scroll-btn-title">&#35;organic</h3>
+              </button>
+            </li>
+            <li>
+              <button class="hero-scroll-btn-one" type="button">
+                <h3 class="hero-scroll-btn-title">&#35;products</h3>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="hero-scrol-list hero-scrol-list-unite list">
+            <li>
+              <button class="hero-scroll-btn-two" type="button">
+                <h3 class="hero-scroll-btn-title">&#35;basket</h3>
+              </button>
+            </li>
+            <li>
+              <button class="hero-scroll-btn-two" type="button">
+                <h3 class="hero-scroll-btn-title">&#35;fruits</h3>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero-second-wrapper">
+        <p class="hero-second-title">Fruit</p>
+        <img
+          class="hero-second-pic"
+          srcset="
+            img/hero/basket_strawberris/basket_strawberris@1x.png 1x,
+            img/hero/basket_strawberris/basket_strawberris@2x.png 2x
+          "
+          src="img/hero/basket_strawberris/basket_strawberris@1x.png"
+          width="239"
+          height="187"
+          alt="basket with strawberries"
+        />
+        <p class="hero-desc">
+          Sweet and juicy, strawberries are packed with vitamin C and
+          antioxidants, making them a delicious and healthy snack
+        </p>
+      </div>
+    </div>
   </div>
 </section>
-
-<!-- SOME IMPORTANT MOMENTS -->
-<!-- ДО ПОСИЛАНЬ ПРОПИСУВАТИ target="_blank" rel="noreferrer noopener -->
-<!-- id НАСТЯ -->
-<!-- cmlvdsmsz -->
