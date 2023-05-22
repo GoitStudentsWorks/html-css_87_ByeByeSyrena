@@ -1,5 +1,4 @@
-/* Mob
-.menu-toggle {
+/* .menu-toggle {
   min-height: 24px;
   min-width: 24px;
   display: inline-block;
@@ -14,27 +13,16 @@
   fill: var(--red-color);
 }
 
-.menu-toggle .modal-icon {
-  display: block;
-  stroke: var(--red-color);
-}
-.menu-toggle.js-open-menu .icon-cross {
+.menu-toggle .icon-cross {
   display: none;
 }
 
-.menu-toggle.js-open-menu .icon-cross {
+.menu-toggle.is-open .icon-cross {
   display: block;
 }
 
-.menu-toggle.js-open-menu .icon-menu {
+.menu-toggle.is-open .icon-menu {
   display: none;
-}
-
-
-@media (min-width: 768px) {
-  .menu-toggle {
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -53,12 +41,10 @@
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
   }
-  
 }
 .menu-container.is-open {
   transform: translateX(0);
 }
-
 
 .mobile-menu {
   padding: 0;
@@ -73,15 +59,13 @@
 
 .mobile-menu .link {
   display: block;
- text-decoration: none;
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.29;
-  color:var(--white-color);
+  color: var(--white-color);
   letter-spacing: -0.04em;
   text-transform: capitalize;
 }
-
-
 
 .mobile-but {
   min-height: 24px;
@@ -95,5 +79,4 @@
   cursor: pointer;
   border: none;
   outline: none;
-  fill:var(--white-color);
 } */
