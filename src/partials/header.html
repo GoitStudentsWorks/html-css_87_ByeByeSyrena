@@ -30,6 +30,7 @@
     >
     <button type="button"
       class="menu-toggle js-open-menu"
+      aria-label="Main menu"
   
     >
       <svg
@@ -47,8 +48,10 @@
   </div>
 </header>
 <!-- MOB -->
-<div class="menu-container js-menu-container" id="mobile-menu">
-  <div class="menu-header">
+<div class="menu-container js-menu-container is-open" id="mobile-menu">
+  <div class="mobile-header"
+  >
+  <div class="menu-header container">
     <a href="../index.html" class="header-logo link">
       <svg class="header-logo-icon" width="16" height="16">
         <use href="../img/icons/sprite.svg#icon-logo"></use>
@@ -69,6 +72,7 @@
       href="../img/icons/sprite.svg#icon-closed"
     ></use></svg>
   </button>
+</div>
 </div>
   <ul class="mobile-menu list">
     <li class="mobile-item item">
