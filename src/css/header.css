@@ -177,12 +177,8 @@
   opacity: 1;
 }
 
-.js-open-menu {
-}
-
-.mobile-menu.is-open .js-open-menu {
+.mobile-menu.is-open .burger {
   display: none;
-  fill: var(--no-color);
 }
 
 .mobile-menu-list {
