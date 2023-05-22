@@ -266,3 +266,13 @@
   font: inherit;
   stroke: var(--red-color);
 }
+.close-menu  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font: inherit;
+  stroke: var(--red-color);
+}
