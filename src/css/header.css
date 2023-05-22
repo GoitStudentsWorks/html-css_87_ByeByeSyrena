@@ -116,9 +116,6 @@
     transform: translateX(-50%);
     z-index: 6;
   }
-  .menu-header .header-logo {
-    visibility: hidden;
-  }
 }
 /* MOB */ /* Mob */
 .burger {
