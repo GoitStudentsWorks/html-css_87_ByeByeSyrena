@@ -107,6 +107,11 @@
 }
 .img-fr {
   margin: 0 auto;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.img-fr:hover, .img-fr:focus {
+  transform: scale(1.1);
 }
 
 .preic-wrapper {
@@ -238,12 +243,14 @@
 
   text-shadow: var(--shadow);
   transform: rotate(-14deg);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .fruits-icon {
   fill: var(--white-color);
 }
 .btn-fruits:focus,
 .btn-fruits:hover {
+  transform: rotate(0deg);
   background-color: var(--white-color);
   color: #9dc262;
 }
