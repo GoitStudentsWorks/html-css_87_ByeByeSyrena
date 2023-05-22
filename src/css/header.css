@@ -1,4 +1,3 @@
-
 .header {
   background-color: var(--white-color);
 }
@@ -6,13 +5,10 @@
 .menu-header {
   background-color: var(--white-color);
   display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 16px;
-  
-   
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
 }
-
 
 .mob-icon {
   fill: var(--white-color);
@@ -72,7 +68,6 @@
   color: var(--red-color);
 }
 
-
 .header-position {
   display: none;
 }
@@ -122,7 +117,6 @@
   padding: 16px 0 16px;
   display: flex;
   align-items: center;
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -131,16 +125,15 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-  }}
+  }
+}
 /* .menu-header .header-logo {
   visibility: hidden;
 } */
-/* MOB *//* Mob */
+/* MOB */ /* Mob */
 
-
-.mobile-header{
+.mobile-header {
   background-color: var(--white-color);
-
 }
 .menu-toggle {
   min-height: 24px;
@@ -173,7 +166,6 @@
   display: none;
 } */
 
-
 @media only screen and (max-width: 767px) {
   .menu-container {
     position: fixed;
@@ -192,11 +184,10 @@
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
   }
-  
 }
 
 @media (min-width: 768px) {
-  .menu-container{
+  .menu-container {
     display: none;
   }
 }
@@ -207,16 +198,15 @@
   opacity: 1;
 }
 
-.menu-container.is-open .menu-toggle{
+.menu-container.is-open .menu-toggle {
   display: none;
-} 
+}
 
 @media only screen and (min-width: 768px) {
-  .menu-toggle{
+  .menu-toggle {
     display: none;
   }
 }
-
 
 .mobile-menu {
   padding: 0;
@@ -232,15 +222,13 @@
 
 .mobile-menu .link {
   display: block;
- text-decoration: none;
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.29;
-  color:var(--white-color);
+  color: var(--white-color);
   letter-spacing: -0.04em;
   text-transform: capitalize;
 }
-
-
 
 .mobile-but {
   min-height: 24px;
@@ -254,19 +242,10 @@
   cursor: pointer;
   border: none;
   outline: none;
-  fill:var(--white-color);
+  fill: var(--white-color);
 }
-.close-menu  {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  border: none;
-  background-color: transparent;
-  font: inherit;
-  stroke: var(--red-color);
-}
-.close-menu  {
+
+.close-menu {
   display: flex;
   align-items: center;
   justify-content: center;
