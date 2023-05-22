@@ -1,0 +1,202 @@
+.your-order-modal-backrod {
+    position: fixed;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    );
+  }
+  .your-order-window {
+    position: absolute;
+  opacity: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #E0E0E0;
+  }
+
+  @media only screen and (min-width: 320px) {
+    .your-order-window {
+      width:93%;
+      height: 903px;
+    }
+  }
+  
+  @media only screen and (min-width: 335px) {
+    .your-order-window {
+      width: 335px;
+      height: 903px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .your-order-window {
+      width: 704px;
+      height: 853px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  }
+  @media only screen and (min-width: 1280px) {
+    .your-order-window {
+      width: 891px;
+      height: 853px;
+          }
+  }
+
+  .your-order-button {
+    background-color:#E0E0E0; 
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  }
+  .your-order-modal-icon {stroke: #AE1332;
+    width: 24px;
+    height: 24px;}
+
+    @media only screen and (min-width: 768px) {
+        .your-order-modal-icon {
+          width: 28px;
+          height: 28px;
+        }
+      }
+      .your-order-header {
+        padding-left: 20px;
+        font-weight: 500;
+       font-size: 28px;
+       line-height: 1;
+       align-items: center;
+       letter-spacing: -0.04em;
+       text-transform: uppercase;
+     
+       color:  #AE1332;;
+     
+       text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+     }
+     
+     @media only screen and (min-width: 768px) {
+       .thank-you-header {
+             font-size: 40px;
+         line-height: 1.1;
+       }
+     }
+     .your-order-phone {
+        padding-bottom: 40px;
+        display: flex;
+                flex-wrap: wrap;
+        justify-content: space-between;
+     }
+
+     @media only screen and (min-width: 768px){ .your-order-phone {display: inline-block;}}       
+     
+
+
+     .your-order-item {
+    height: 119px;
+    border-radius: 20px;   
+    
+}
+
+@media only screen and (min-width: 768px){
+    .your-order-item {width: 200px;
+        height: 250px;}
+
+}
+@media only screen and (min-width: 1280px){
+    .your-order-item {width: 811px;
+        height: 308px;}
+
+}
+
+
+
+.your-order-item-st{background-color:#F8766B;}
+.your-order-item-apple{background-color: #EDD251;}
+.your-order-item-fruits{background-color: #9DC262;}
+
+.your-order-list {display: flex;
+    flex-direction: column;
+gap: 12px;
+align-items: stretch;
+padding-left: 20px;
+ padding-right: 20px;
+}
+@media only screen and (min-width: 768px){
+    .your-order-list {flex-direction: row;
+        flex-wrap: nowrap;
+        padding-left: 40px;
+ padding-right: 40px;
+    }
+}
+@media only screen and (min-width: 1280px){
+.your-order-list {gap: 20px;}}
+
+.your-order-note-mid{
+font-weight: 700;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: -0.04em;
+color:var(--white-color);}
+
+@media only screen and (min-width: 1280px){
+    .your-order-note-mid{font-size: 24px;
+        line-height: 1.17;}
+
+}
+
+.your-order-note{font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+       letter-spacing: -0.02em;
+       color: var(--white-color);
+    }
+
+   
+    .your-order-p {
+        display: flex;
+         flex-direction: row-reverse;
+         gap: 5px;
+    }
+
+    .your-order-p {
+        display: flex;
+         flex-direction: row-reverse;
+         gap: 5px;
+    }
+
+    @media only screen and (min-width: 768px){
+        .your-order-p {flex-direction: column-reverse;
+            gap: 4px;
+            align-items: flex-start;}
+
+    }
+
+
+    .your-order-picture{margin-left: 0;
+    margin-right: 0;
+    width: 88px;
+     height: 95px;
+    
+}
+@media only screen and (min-width: 768px){
+    .your-order-picture{width: 172px;
+        height: 148px;}
+}
+@media only screen and (min-width: 1280px){
+    .your-order-picture{width: 229px;
+        height: 196px;}
+}
+.your-order-text {}
