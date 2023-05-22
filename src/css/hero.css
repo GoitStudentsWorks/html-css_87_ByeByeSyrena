@@ -128,18 +128,21 @@
     top: 35%;
   }
 }
+
 .hero-berry {
   position: absolute;
   z-index: 1;
   right: 5%;
   top: 16%;
 }
+
 @media screen and (min-width: 768px) {
   .hero-berry {
     right: 4%;
     top: 19%;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .hero-berry {
     right: 17%;
@@ -149,15 +152,13 @@
 
 /* Yulia Part */
 /* BTN SHOP NOW */
-.hero-btn-container {
-}
 
 .hero-btn {
   position: absolute;
   z-index: 5;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
   padding: 0;
   border-radius: 50%;
   border: transparent;
