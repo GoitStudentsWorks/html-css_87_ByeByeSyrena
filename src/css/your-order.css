@@ -98,8 +98,7 @@
 @media screen and (min-width: 1280px) {
   .yourorder-modal {
     width: 891px;
-    left: calc(50% - 445px);
-    top: calc(50% - 455px);
+    left: 50%;
     height: 911px;
     padding: 40px;
     background-position: 100% 100%;
