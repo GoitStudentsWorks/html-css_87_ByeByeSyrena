@@ -17,6 +17,7 @@
 /* Ira Part */
 
 .hero-main-container {
+  position: relative;
   min-height: 600px;
 }
 
@@ -66,9 +67,14 @@
   position: absolute;
   z-index: 3;
   left: 50%;
-  top: 15%;
-  transform: translate(-50%, 10%) scale(1);
+  top: 0%;
+  transform: translate(-50%, 0%);
   min-width: 335px;
+}
+@media screen and (min-width: 320px) {
+  .hero-title-box {
+    min-width: 300px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -88,6 +94,7 @@
 .hero-girl {
   border-radius: 500px;
 }
+
 @media screen and (min-width: 768px) {
   .hero-girl {
     margin: auto;
@@ -108,6 +115,13 @@
   border-color: var(--no-color);
   background: linear-gradient(to bottom, #ae1332, #ae1332, #ae1332) padding-box,
     linear-gradient(to bottom, #ae1332 44.18%, #ffffff 100%) border-box;
+}
+
+@media screen and (max-width: 375px) {
+  .hero-girl-border {
+    width: 300px;
+    height: 450px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -326,7 +340,7 @@
   display: flex;
   flex-direction: column;
   gap: 44px;
-  width: 299px;
+  max-width: 299px;
   margin: 0 auto 44px auto;
 }
 
@@ -347,7 +361,7 @@
   display: flex;
   flex-direction: column;
   gap: 44px;
-  width: 299px;
+  max-width: 299px;
   margin: 0 auto;
 }
 
