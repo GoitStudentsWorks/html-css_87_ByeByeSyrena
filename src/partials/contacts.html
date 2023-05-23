@@ -1,4 +1,4 @@
-<section class="contacts-section">
+<section class="contacts-section" id="contacts">
   <div class="container">
     <div class="contacts-first-block">
       <h2 class="contacts-title">Fresh Harvest Box has got you covered</h2>
@@ -6,49 +6,53 @@
         <li>
           <picture>
             <source
-            media="(min-width: 1280px)"
-            srcset="
-            img/fresh/melon/Rectangle42472.jpg 1x, 
-            img/fresh/melon/Rectangle42472@2x.jpg 2x
-            "
-            type="image/jpg">
+              media="(min-width: 1280px)"
+              srcset="
+                img/fresh/melon/Rectangle42472.jpg    1x,
+                img/fresh/melon/Rectangle42472@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
             <source
-            media="(min-width: 320px)"
-            srcset="
-            img/fresh/melon_tablet_and_mobile/melon.jpg 1x, 
-            img/fresh/melon_tablet_and_mobile/melon@2x.jpg 2x
-            "
-            type="image/jpg">
+              media="(min-width: 320px)"
+              srcset="
+                img/fresh/melon_tablet_and_mobile/melon.jpg    1x,
+                img/fresh/melon_tablet_and_mobile/melon@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
             <img
-            class="contacts-melon"
-            src="../img/fresh/melon_tablet_and_mobile/melon.jpg"
-            alt="melon"
-            loading="lazy"
-          />
+              class="contacts-melon"
+              src="../img/fresh/melon_tablet_and_mobile/melon.jpg"
+              alt="melon"
+              loading="lazy"
+            />
           </picture>
         </li>
         <li>
           <picture>
             <source
-            media="(min-width: 1280px)"
-            srcset="
-            img/fresh/blueberry/blueberry.jpg 1x, 
-            img/fresh/blueberry/blueberry@2x.jpg
-            "
-            type="image/jpg">
+              media="(min-width: 1280px)"
+              srcset="
+                img/fresh/blueberry/blueberry.jpg    1x,
+                img/fresh/blueberry/blueberry@2x.jpg
+              "
+              type="image/jpg"
+            />
             <source
-            media="(min-width: 320px)"
-            srcset="
-            img/fresh/blueberry_tablet_and_mobile/blueberry.jpg 1x, 
-            img/fresh/blueberry_tablet_and_mobile/blueberry@2x.jpg
-            "
-            type="image/jpg">
+              media="(min-width: 320px)"
+              srcset="
+                img/fresh/blueberry_tablet_and_mobile/blueberry.jpg    1x,
+                img/fresh/blueberry_tablet_and_mobile/blueberry@2x.jpg
+              "
+              type="image/jpg"
+            />
             <img
-            class="contacts-blueberry"
-            src="../img/fresh/blueberry_tablet_and_mobile/blueberry.jpg"
-            alt="blueberry"
-            loading="lazy"
-          />
+              class="contacts-blueberry"
+              src="../img/fresh/blueberry_tablet_and_mobile/blueberry.jpg"
+              alt="blueberry"
+              loading="lazy"
+            />
           </picture>
         </li>
       </ul>
@@ -60,7 +64,7 @@
         Order your box today and start enjoying the best that nature has to
         offer!
       </p>
-      <form class="contacts-form">
+      <form class="contacts-form modal-form modal-field-input">
         <div class="contacts-form-div">
           <input
             class="contacts-input"
@@ -69,7 +73,7 @@
             placeholder="Enter email..."
             required
           />
-          <button class="contacts-button" type="submit" data-modal-open>
+          <button class="contacts-button open-modal-btn" type="submit">
             Send
           </button>
         </div>

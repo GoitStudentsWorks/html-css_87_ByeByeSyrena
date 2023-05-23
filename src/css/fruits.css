@@ -107,6 +107,11 @@
 }
 .img-fr {
   margin: 0 auto;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.img-fr:hover, .img-fr:focus {
+  transform: scale(1.1);
 }
 
 .preic-wrapper {
@@ -207,6 +212,8 @@
   }
 }
 
+/* -----Btn Your Order---- */
+
 .fruits-btn-wrapper {
   display: flex;
   justify-content: center;
@@ -229,32 +236,34 @@
   text-align: center;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  padding-left: 7px;
-  padding-right: 8px;
+  padding: 26px 8px 26px 7px;
   gap: 4px;
 
-  color: #ffffff;
+  color: var(--white-color);
 
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  text-shadow: var(--shadow);
   transform: rotate(-14deg);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .fruits-icon {
-  fill: #ffffff;
+  fill: var(--white-color);
 }
 .btn-fruits:focus,
 .btn-fruits:hover {
-  background-color: #ffffff;
+  transform: rotate(0deg);
+  background-color: var(--white-color);
   color: #9dc262;
-  fill: #9dc262;
-  stroke: #9dc262;
 }
+.btn-fruits:focus .fruits-icon,
+.btn-fruits:hover .fruits-icon {
+  fill: #9dc262;
+}
+
 @media screen and (min-width: 768px) {
   .btn-fruits {
     width: 114px;
     height: 114px;
-    padding-left: 18px;
-    padding-right: 17px;
-
+    padding: 38px 17px 38px 18px;
     font-size: 18px;
     line-height: 1.33;
   }
