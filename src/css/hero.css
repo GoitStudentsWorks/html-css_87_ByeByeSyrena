@@ -309,7 +309,7 @@
   background-color: transparent;
   border: 1px solid #ffffff;
   border-radius: 1000px;
-  flex-basis: calc((100% - 8px) / 2);
+  width: calc((100% - 8px) / 2);
   padding: 12px 32px 12px 32px;
 }
 
@@ -351,12 +351,11 @@
   padding: 12px 32px 12px 32px;
 } */
   .hero-scroll-btn-one {
+    max-width: calc((100% - 8px) / 2);
   }
 
   .hero-scroll-container {
-    width: 282px;
     justify-content: flex-end;
-    flex-wrap: nowrap;
   }
 }
 
