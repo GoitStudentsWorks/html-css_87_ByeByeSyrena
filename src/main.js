@@ -1,3 +1,3 @@
 import'./js/thankyou';
-import'./js/your-oder-modal';
+import'./js/your-order-modal';
 import'./js/menu';
