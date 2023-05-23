@@ -107,6 +107,17 @@
     letter-spacing: -0.04em;
     color: #ffffff;
   }
+  .contacts-input:hover,
+  .contacts-input:focus{
+    outline: none;
+    border-color: var(--white-color);
+    color: var(--white-color);
+  }
+  .contacts-button:hover,
+  .contacts-button:focus{
+    background-color: var(--white-color);
+    color: var(--green-color);
+  }
 }
 /* Desktop */
 @media only screen and (min-width: 1280px) {
@@ -124,15 +135,5 @@
   }
   .contacts-second-block {
     margin: 80px 362px 0;
-  }
-  .contacts-button:hover,
-  .contacts-button:focus{
-    background-color: var(--white-color);
-    color: var(--green-color);
-  }
-  .contacts-input:focus{
-    outline: none;
-    border-color: var(--white-color);
-    color: var(--white-color);
   }
 }
