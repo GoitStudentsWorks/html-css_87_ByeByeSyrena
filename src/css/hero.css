@@ -15,8 +15,17 @@
 }
 
 /* Ira Part */
-.hero-width {
-  min-height: 1078px;
+
+.hero-main-container {
+  min-height: 475px;
+  margin-bottom: 71px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-main-container {
+    min-height: 800px;
+    margin-bottom: 0;
+  }
 }
 
 .hero-title {
@@ -28,6 +37,11 @@
   text-shadow: var(--shadow);
   text-align: center;
   color: var(--white-color);
+}
+@media screen and (max-width: 374px) {
+  .hero-title {
+    width: calc(100% - 10%);
+  }
 }
 @media screen and (min-width: 768px) {
   .hero-title {
@@ -79,7 +93,7 @@
   z-index: 2;
   left: 50%;
   top: 23%;
-  transform: translate(-50%, 0%) scale(1);
+  transform: translate(-50%, 0%);
   padding: 11px;
   min-width: 300px;
   max-height: 498px;
@@ -149,13 +163,10 @@
 
 /* Yulia Part */
 /* BTN SHOP NOW */
-.hero-btn-container {
-  position: relative;
-  margin-bottom: 44px;
-}
+
 .hero-btn {
   position: absolute;
-  top: 50%;
+  top: 97%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -193,17 +204,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 44px;
   gap: 44px;
 }
 
 .hero-description {
+  display: block;
+  width: 279px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.04em;
-  padding-left: 40px;
-  padding-right: 40px;
 
   display: flex;
   align-items: center;
@@ -215,8 +225,6 @@
 .hero-first-wrapper {
   background-color: var(--green-color);
   border-radius: 500px;
-  margin-right: 63px;
-  margin-left: 63px;
   width: 249px;
   height: 387px;
 }
@@ -264,15 +272,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 44px;
-  gap: 44px;
 }
 
 .hero-second-wrapper {
   background-color: var(--yellow-color);
   border-radius: 500px;
-  margin-right: 63px;
-  margin-left: 63px;
   width: 249px;
   height: 387px;
 }
@@ -299,30 +303,14 @@
 .hero-scroll-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 8px;
-}
-
-.hero-scrol-list {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  padding-right: 55px;
-  padding-left: 55px;
 }
 
 .hero-scroll-btn-one {
   background-color: transparent;
   border: 1px solid #ffffff;
   border-radius: 1000px;
-  width: 132px;
-  padding: 12px 32px 12px 32px;
-}
-.hero-scroll-btn-two {
-  background-color: transparent;
-  border: 1px solid #ffffff;
-  border-radius: 1000px;
-  width: 132px;
+  flex-basis: calc((100% - 8px) / 2);
   padding: 12px 32px 12px 32px;
 }
 
@@ -346,9 +334,7 @@
 @media screen and (min-width: 768px) {
   .hero-desc-section {
     display: flex;
-  }
-  .hero-description {
-    padding-left: 32px;
+    justify-content: center;
   }
 
   /* second side */
@@ -356,13 +342,21 @@
     display: flex;
     flex-direction: column-reverse;
   }
-  .hero-scroll-btn-two {
-    justify-content: end;
-    width: 110px;
+
+  /* .hero-scroll-btn-one {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 1000px;
+  flex-basis: calc((100% - 8px) / 2);
+  padding: 12px 32px 12px 32px;
+} */
+  .hero-scroll-btn-one {
   }
+
   .hero-scroll-container {
+    width: 282px;
     justify-content: flex-end;
-    margin-left: 32px;
+    flex-wrap: nowrap;
   }
 }
 
