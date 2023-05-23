@@ -81,6 +81,7 @@
 @media screen and (min-width: 768px) {
   .yourorder-modal {
     width: 704px;
+    overflow: scroll;
     padding: 40px;
     background-image: url(../img/modal-your-oder/471x458-dama-desk@1x.png);
     background-position: bottom 0% right -75%;
