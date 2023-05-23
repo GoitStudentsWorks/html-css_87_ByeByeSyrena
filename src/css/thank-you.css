@@ -12,22 +12,10 @@
   );
 }
 
-.modal-active{opacity: 1;
-pointer-events: all;}
-
-
-/* 
-
-.thank-you-modal-backrod.is-hidden {
+.modal-active {
   opacity: 1;
   pointer-events: all;
-
 }
-
-.thank-you-modal-backrod.is-hidden .thank-you-window {
-  transform: translate(-50%, -50%) scale(1.1);
-  opacity: 0;
-} */
 
 .thank-you-window {
   position: absolute;
@@ -44,7 +32,7 @@ pointer-events: all;}
 
 @media only screen and (min-width: 320px) {
   .thank-you-window {
-    width:95%;
+    width: 95%;
     height: 426px;
   }
 }
@@ -92,22 +80,21 @@ pointer-events: all;}
 }
 
 .thank-you-picture {
-    margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
-   width: 207px;
-  height: 176px; }
+  width: 207px;
+  height: 176px;
+}
 
 @media only screen and (min-width: 768px) {
   .thank-you-picture {
-    
     width: 278px;
     height: 239px;
-   
-  }}
-
+  }
+}
 
 .thank-you-text {
-  padding-top:20px;
+  padding-top: 20px;
   display: flex;
   text-align: center;
   gap: 14px;
@@ -125,7 +112,7 @@ pointer-events: all;}
 }
 
 .thank-you-header {
-   font-weight: 500;
+  font-weight: 500;
   font-size: 28px;
   line-height: 1;
   align-items: center;
@@ -139,13 +126,12 @@ pointer-events: all;}
 
 @media only screen and (min-width: 768px) {
   .thank-you-header {
-        font-size: 40px;
+    font-size: 40px;
     line-height: 1.1;
   }
 }
 
 .thank-you-note {
- 
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
