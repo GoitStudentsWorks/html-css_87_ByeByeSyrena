@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 768px) {
   .hero-main-container {
-    min-height: 800px;
+    min-height: 886px;
     margin-bottom: 0;
   }
 }
@@ -333,13 +333,14 @@
 @media screen and (min-width: 768px) {
   .hero-desc-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   /* second side */
   .hero-second-container {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: space-between;
   }
 
   /* .hero-scroll-btn-one {
