@@ -11,7 +11,7 @@
   }
 }
 .yourorder-modal-icon-open {
-  fill: #ffffff;
+  fill: var(--white-color);
   margin-top: auto;
 }
 .btn-uppertitle {
@@ -26,9 +26,9 @@
   letter-spacing: -0.04em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--white-color);
 
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  text-shadow: var(--shadow);
   transform: rotate(-14deg);
 }
 @media screen and (max-width: 767px) {
