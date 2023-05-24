@@ -110,7 +110,8 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.fruits-item:hover .img-fr, .fruits-item:focus .img-fr {
+.fruits-item:hover .img-fr,
+.fruits-item:focus .img-fr {
   transform: scale(1.1);
 }
 
@@ -166,38 +167,38 @@
 }
 
 .strawberry {
-  background-color: #f8766b;
+  background-color: var(--peach-color);
 }
 
 .banana {
-  background-color: #edd251;
+  background-color: var(--second-yellow-color);
 }
 .watermelon {
-  background-color: #9dc262;
+  background-color: var(--second-green-color);
 }
 
 .lime {
-  background-color: #bfd663;
+  background-color: var(--light-green-color);
 }
 
 .apple {
-  background-color: #e93f29;
+  background-color: var(--light-red-color);
 }
 
 .peach {
-  background-color: #db4f4b;
+  background-color: var(--summer-red-color);
 }
 
 .plums {
-  background-color: #9b5366;
+  background-color: var(--dim-pink-color);
   display: none;
 }
 .orange {
-  background-color: #f47f4c;
+  background-color: var(--orange-color);
   display: none;
 }
 .kiwi {
-  background-color: #98b37e;
+  background-color: var(--dark-green-color);
   display: none;
 }
 @media screen and (min-width: 768px) {
@@ -212,8 +213,6 @@
   }
 }
 
-/* -----Btn Your Order---- */
-
 .fruits-btn-wrapper {
   display: flex;
   justify-content: center;
@@ -224,7 +223,7 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: #9dc262;
+  background-color: var(--second-green-color);
   border: none;
   cursor: pointer;
 
@@ -252,11 +251,11 @@
 .btn-fruits:hover {
   transform: rotate(0deg);
   background-color: var(--white-color);
-  color: #9dc262;
+  color: var(--second-green-color);
 }
 .btn-fruits:focus .fruits-icon,
 .btn-fruits:hover .fruits-icon {
-  fill: #9dc262;
+  fill: var(--second-green-color);
 }
 
 @media screen and (min-width: 768px) {

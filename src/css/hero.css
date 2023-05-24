@@ -14,8 +14,6 @@
   }
 }
 
-/* Ira Part */
-
 .hero-main-container {
   position: relative;
 
@@ -41,7 +39,7 @@
   line-height: 1;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  text-shadow: var(--shadow);
   text-align: center;
   color: var(--white-color);
 }
@@ -53,7 +51,7 @@
   line-height: 1;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  text-shadow: var(--shadow);
   text-align: center;
   color: var(--white-color);
 }
@@ -134,8 +132,15 @@
   border-radius: 500px;
   border: 1px solid;
   border-color: var(--no-color);
-  background: linear-gradient(to bottom, #ae1332, #ae1332, #ae1332) padding-box,
-    linear-gradient(to bottom, #ae1332 44.18%, #ffffff 100%) border-box;
+  background: linear-gradient(
+        to bottom,
+        var(--red-color),
+        var(--red-color),
+        var(--red-color)
+      )
+      padding-box,
+    linear-gradient(to bottom, var(--red-color) 44.18%, var(--white-color) 100%)
+      border-box;
 }
 
 @media screen and (max-width: 375px) {
@@ -203,9 +208,6 @@
   }
 }
 
-/* Yulia Part */
-/* BTN SHOP NOW */
-
 .hero-btn {
   position: absolute;
   top: 97%;
@@ -232,7 +234,7 @@
   text-align: center;
 
   color: var(--red-color);
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  text-shadow: var(--shadow);
   transform: rotate(-14deg);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -286,7 +288,7 @@
   padding-left: 112px;
   margin-bottom: 61px;
   color: var(--white-color);
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  text-shadow: var(--shadow);
 }
 .hero-first-pic {
   margin-left: 24px;
@@ -307,7 +309,7 @@
 
   text-transform: uppercase;
   color: var(--white-color);
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  text-shadow: var(--shadow);
 }
 
 .hero-second-wrapper {
@@ -338,7 +340,7 @@
   padding-left: 112px;
   margin-bottom: 19px;
   color: var(--white-color);
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  text-shadow: var(--shadow);
 }
 
 .hero-second-pic {
@@ -357,7 +359,7 @@
   text-transform: uppercase;
 
   color: var(--white-color);
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  text-shadow: var(--shadow);
 }
 
 .cards-wrapper-first {
@@ -424,7 +426,7 @@
 
 .hero-scroll-btn-one {
   background-color: transparent;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--white-color);
   border-radius: 1000px;
   flex-basis: calc((100% - 8px) / 2);
   padding: 12px 32px 12px 32px;

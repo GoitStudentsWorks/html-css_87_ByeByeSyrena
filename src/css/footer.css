@@ -1,7 +1,5 @@
 .footer {
-  /* padding-top: 80px; */
   padding-bottom: 80px;
-  /* display: block; */
   justify-content: center;
   position: relative;
 }
@@ -10,13 +8,6 @@
     padding-top: 80px;
   }
 }
-
-/* @media only screen and (min-width: 1280px) {
-  .footer {
-    padding-bottom: 0;
-
-  }
-} */
 
 .container-footer {
   max-width: 375px;
@@ -51,11 +42,9 @@
   margin-bottom: 20px;
 }
 
-/* Tablet */
 @media screen and (min-width: 768px) {
   .footer-block-1 {
     display: inline-block;
-    /* justify-content: left; */
     margin-left: 32px;
   }
 }
@@ -163,20 +152,18 @@
 }
 .footer-icons-link:hover,
 .footer-icons-link:focus {
-  background: rgba(174, 19, 50, 0.1);
+  background: var(--bg-dark-red-color);
   border: 1px solid var(--red-color);
   border-radius: 10px;
 }
 
 .footer-contacts {
-  /* position: relative; */
   display: flex;
   justify-content: center;
   text-align: center;
-
-  /* text-transform: uppercase; */
   color: var(--red-color);
 }
+
 @media screen and (min-width: 768px) {
   .footer-contacts {
     justify-content: left;
@@ -220,8 +207,6 @@
   }
 }
 .adress-phone {
-  font-family: 'DM Sans';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29em;
@@ -241,12 +226,7 @@
 .adress-place {
   width: 140px;
   margin: auto;
-
   text-align: center;
-
-  /* justify-content: center; */
-  font-family: 'DM Sans';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29em;
@@ -276,7 +256,6 @@
   .adress-place {
     margin: auto;
     max-width: 180px;
-    /* text-align: left; */
     font-size: 18px;
     line-height: 1.33em;
   }

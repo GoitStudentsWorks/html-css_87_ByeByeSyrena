@@ -6,7 +6,6 @@
   position: relative;
 }
 .contacts-title {
-  font-family: 'DM Sans';
   position: absolute;
   left: 0;
   top: -55px;
@@ -19,7 +18,7 @@
   letter-spacing: -0.04em;
   text-transform: uppercase;
   color: var(--white-color);
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  text-shadow: var(--shadow);
 }
 .contacts-melon {
   border-radius: 20px;
@@ -32,7 +31,7 @@
     display: none;
   }
 }
-/* Tablet */
+
 @media only screen and (min-width: 768px) {
   .contacts-section {
     padding-top: 223px;
@@ -67,8 +66,8 @@
     align-items: center;
     text-align: center;
     letter-spacing: -0.04em;
-    color: #ffffff;
-    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+    color: var(--white-color);
+    text-shadow: var(--shadow);
     margin-bottom: 80px;
   }
   .contacts-input {
@@ -90,11 +89,11 @@
   }
 
   .contacts-input:not(:placeholder-shown):required:valid {
-    border-color: green;
+    border-color: var(--outline-total-green);
   }
 
   .contacts-input:not(:placeholder-shown):required:invalid {
-    border-color: red;
+    border-color: var(--outline-total-red);
   }
 
   .contacts-form-div {
@@ -108,14 +107,14 @@
     display: flex;
     align-items: center;
     padding: 15px 35px;
-    background-color: #9dc162;
+    background-color: var(--submit-green-color);
     border-radius: 100px;
     border: none;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.3;
     letter-spacing: -0.04em;
-    color: #ffffff;
+    color: var(--white-color);
     transition: background-color 300ms ease-in-out;
   }
   .contacts-input:hover,
@@ -130,7 +129,6 @@
     color: var(--green-color);
   }
 }
-/* Desktop */
 @media only screen and (min-width: 1280px) {
   .contacts-section {
     padding-top: 239px;
@@ -156,8 +154,8 @@
   cursor: pointer;
   display: none;
   font-size: 20px;
-  color: #9dc262;
-  border: 1px solid #9dc262;
+  color: var(--second-green-color);
+  border: 1px solid var(--second-green-color);
   background-color: var(--no-color);
   padding: 15px 10px;
   transition: color 250ms ease-in-out, border 250ms ease-in-out;
@@ -165,8 +163,8 @@
 
 .go-top:hover,
 .go-top:focus {
-  color: #edd251;
-  border: 1px solid #edd251;
+  color: var(--second-yellow-color);
+  border: 1px solid var(--second-yellow-color);
   background-color: var(--no-color);
 }
 

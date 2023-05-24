@@ -130,8 +130,6 @@
   }
 }
 
-/* MOB */ /* Mob */
-
 .mobile-header {
   background-color: var(--white-color);
 }
@@ -149,7 +147,6 @@
   outline: none;
   fill: var(--red-color);
 }
-
 
 .menu-container .modal-icon {
   display: block;
@@ -182,8 +179,6 @@
 .menu-container.is-open {
   transform: translateX(0);
   pointer-events: initial;
-
-  
 }
 
 .menu-container.is-open .menu-toggle {
@@ -208,8 +203,6 @@
   margin-top: 124px;
 }
 
-
-
 .mobile-menu .link {
   display: block;
   text-decoration: none;
@@ -225,7 +218,6 @@
 .mobile-link:focus {
   color: var(--black-color);
 }
-
 
 .mobile-but {
   min-height: 24px;
@@ -252,4 +244,3 @@
   font: inherit;
   stroke: var(--red-color);
 }
-
