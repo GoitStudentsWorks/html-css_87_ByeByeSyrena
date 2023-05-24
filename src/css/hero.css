@@ -213,16 +213,20 @@
   top: 97%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+  background-color: var(--white-color);
   padding: 0;
   border-radius: 50%;
   border: transparent;
   width: 80px;
   height: 80px;
-  z-index: 4;
+  z-index: 9;
 }
 
 .hero-btn-desc {
+  position: absolute;
+  z-index: 15;
+  top: 25%;
+  transform: translate(-50%, -50%);
   font-weight: 500;
   font-size: 20px;
   line-height: 1;
