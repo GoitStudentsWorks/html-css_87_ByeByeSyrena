@@ -142,6 +142,8 @@
             placeholder="Enter full name..."
             id="yourorder-name"
             required
+            pattern="^[a-zA-Z]+$"
+            title="Username should start with a capital letter. For example 'John'"
           />
         </label>
 
@@ -153,6 +155,7 @@
             placeholder="Enter email..."
             id="yourorder-mail"
             required
+            title="Email must contain ''@''. For example - ''example@ukr.net''"
           />
         </label>
 
@@ -163,6 +166,8 @@
             name="yourorder-card"
             placeholder="Enter card.."
             id="yourorder-card"
+            pattern="[0-9/A-Z]{4}-[0-9/A-Z]{4}-[0-9/A-Z]{4}-[0-9/A-Z]{4}"
+            title="this field can contain numbers and capital letters. For example ''1234-ABSD-1A2B-A1B2''"
           />
         </label>
 

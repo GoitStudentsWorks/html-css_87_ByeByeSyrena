@@ -70,6 +70,7 @@
   padding: 20px;
   background: var(--white-color);
   background-repeat: no-repeat;
+  background-attachment: local;
 }
 @media screen and (min-width: 375px) {
   .yourorder-modal {
@@ -84,7 +85,9 @@
     overflow: scroll;
     padding: 40px;
     background-image: url(../img/modal-your-oder/471x458-dama-desk@1x.png);
-    background-position: bottom 0% right -75%;
+
+    background-position: 414px 100%;
+    background-size: 469px;
   }
   /* // retina tablet screen */
   @media (min-device-pixel-ratio: 2),
@@ -100,9 +103,10 @@
   .yourorder-modal {
     width: 891px;
     left: 50%;
-    height: 911px;
+    /* height: 911px; */
     padding: 40px;
-    background-position: 100% 100%;
+    background-position: 420px 453px;
+    background-size: 471px;
     background-image: url(../img/modal-your-oder/471x458-dama-desk@1x.png);
   }
   /* // retina desktop screen */
@@ -181,8 +185,8 @@
   }
 } */
 
-.yourorder-form {
-}
+/* .yourorder-form {
+} */
 .container-form-checkbox {
   width: 100%;
   display: flex;
@@ -442,7 +446,12 @@
   /* opacity: 0.5; */
   border-radius: 100px;
 }
-
+.yourorder-modal-input:valid {
+  outline-color: green;
+}
+.yourorder-modal-input:invalid {
+  outline-color: red;
+}
 .yourorder-modal-label-texterea {
   height: 132px;
   width: 100%;
