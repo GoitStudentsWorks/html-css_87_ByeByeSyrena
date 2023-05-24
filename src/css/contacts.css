@@ -88,6 +88,15 @@
     letter-spacing: -0.04em;
     color: rgba(255, 255, 255, 0.5);
   }
+
+  .contacts-input:not(:placeholder-shown):required:valid {
+    border-color: green;
+  }
+
+  .contacts-input:not(:placeholder-shown):required:invalid {
+    border-color: red;
+  }
+
   .contacts-form-div {
     position: relative;
   }
