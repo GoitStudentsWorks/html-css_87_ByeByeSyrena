@@ -2,7 +2,7 @@
   const refs = {
     openModalBtn: document.querySelector('[data-modal-your-order-open]'),
     closeModalBtn: document.querySelector('[data-modal-your-order-close]'),
-    modal: document.querySelector('[your-order-data-modal]'),
+    modal: document.querySelector('[data-modal-your-order]'),
   };
 
   refs.openModalBtn.addEventListener('click', toggleModal);
