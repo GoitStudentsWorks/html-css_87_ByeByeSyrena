@@ -103,7 +103,7 @@
   .header-link {
     font-size: 14px;
     line-height: 1.28;
-    letter-spacing: 0.04em;
+    letter-spacing: -0.04em;
     display: inline-block;
     color: var(--red-color);
     padding: 16px 0 16px;

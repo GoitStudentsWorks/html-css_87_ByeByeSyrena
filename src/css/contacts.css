@@ -78,6 +78,7 @@
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 100px;
+    transition: border-color 250ms ease-in-out, color 250ms ease-in-out;
   }
   .contacts-input::placeholder {
     font-family: 'DM Sans';
@@ -106,6 +107,7 @@
     line-height: 1.3;
     letter-spacing: -0.04em;
     color: #ffffff;
+    transition: background-color 300ms ease-in-out;
   }
   .contacts-input:hover,
   .contacts-input:focus {
@@ -149,9 +151,11 @@
   border: 1px solid #9dc262;
   background-color: var(--no-color);
   padding: 15px 10px;
+  transition: color 250ms ease-in-out, border 250ms ease-in-out;
 }
 
-.go-top:hover {
+.go-top:hover,
+.go-top:focus {
   color: #edd251;
   border: 1px solid #edd251;
   background-color: var(--no-color);
