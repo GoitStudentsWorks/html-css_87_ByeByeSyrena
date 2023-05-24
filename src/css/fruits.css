@@ -110,7 +110,7 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.img-fr:hover, .img-fr:focus {
+.fruits-item:hover .img-fr, .fruits-item:focus .img-fr {
   transform: scale(1.1);
 }
 
