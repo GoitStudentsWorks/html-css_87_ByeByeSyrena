@@ -397,14 +397,13 @@
     flex-direction: column-reverse;
     gap: 44px;
     width: 299px;
-    margin: 0 auto;
+    margin: 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cards-wrapper-second {
     align-self: flex-start;
-    margin: 0;
   }
 }
 
@@ -420,7 +419,7 @@
 
 @media screen and (min-width: 768px) {
   .hero-scroll-container {
-    display: block;
+    justify-content: flex-end;
   }
 }
 
@@ -428,27 +427,49 @@
   background-color: transparent;
   border: 1px solid var(--white-color);
   border-radius: 1000px;
-  flex-basis: calc((100% - 8px) / 2);
   padding: 12px 32px 12px 32px;
+  width: 132px;
+}
+
+.hero-scroll-btn-two {
+  background-color: transparent;
+  border: 1px solid var(--white-color);
+  border-radius: 1000px;
+  padding: 12px 32px 12px 32px;
+  width: 132px;
+}
+
+.hero-scroll-btn-three {
+  background-color: transparent;
+  border: 1px solid var(--white-color);
+  border-radius: 1000px;
+  padding: 12px 32px 12px 32px;
+  width: 132px;
+}
+
+.hero-scroll-btn-four {
+  background-color: transparent;
+  border: 1px solid var(--white-color);
+  border-radius: 1000px;
+  padding: 12px 32px 12px 32px;
+  width: 132px;
 }
 
 @media screen and (min-width: 768px) {
   .hero-scroll-btn-one {
-    display: inline;
-    margin-bottom: 8px;
-    margin-right: 8px;
-    align-items: end;
+    width: 125px;
   }
 
-  .hero-scroll-btn-one:nth-child(2n) {
-    margin-left: 0;
-  }
-  .hero-scroll-btn-one:nth-child(3n) {
-    margin-left: 39px;
+  .hero-scroll-btn-two {
+    width: 133px;
   }
 
-  .hero-scroll-btn-one:nth-last-of-type(-n + 2) {
-    margin-bottom: 0px;
+  .hero-scroll-btn-three {
+    width: 115px;
+  }
+
+  .hero-scroll-btn-four {
+    width: 110px;
   }
 
   .hero-desc-section {
